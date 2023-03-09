@@ -1,0 +1,9 @@
+{
+  "$schema": "https://api.paperspace.com/schemas/v0alpha0",
+  "name": "hello-world",
+  "image": "nginxdemos/hello:latest",
+  "enabled": true,
+  "resources": {
+    "instanceType": "C4"
+  }
+}
