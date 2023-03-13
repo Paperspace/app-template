@@ -1,8 +1,11 @@
 {
   "$schema": "https://paperspace.com/config.schema.json",
   "apiVersion": "latest",
+  // The name of the deployment
   "name": "hello-world",
+  // The container image to use for the deployment
   "image": "nginxdemos/hello:latest",
+  // Whether or not to enable the deployment. When disabled, the deployment will not run.
   "enabled": true,
   "resources": {
     "instanceType": "C4",
